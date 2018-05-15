@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/*
+ *
+ * HEADER
+ *
+ */
+header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+
+.header_logo {
+    float: left;
+    width: 10rem;
+}
+
+.header_title {
+    float: right;
+    text-align: right;
+}
+
+.header_title h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.header_title h3, span/*in featured work*/ {
+    margin-top: 0;
+    color: rgb(32, 52, 104);
+}
+
+/*
+ *
+ * MAIN IMAGE
+ *
+ */
+
+.main_image img {
+    width: 100%;
+    border-top: 5px solid rgb(32, 52, 104);
+}
+
+
+/*
+ *
+ * FEATURED WORK
+ *
+ */
+
+.featured_header h2 {
+    margin-top: 0;
+    margin-left: 5rem;
+    font-size: 40px;
+    color: rgb(32, 52, 104);
+}
+
+.featured_work {
+    display: flex;
+    justify-content: center;
+}
+
+.featured_work img {
+    width: 80%;
+    margin: 3rem;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    width: 30%;
+    height: 50%;
+}
