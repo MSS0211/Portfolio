@@ -1,0 +1,86 @@
+body {
+    /*Makes the background image fill the entire screen*/
+    background: url("image/abstract.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*HEADER*/
+header, #middle, #featured {
+    /*create gaps left/right to see background*/
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+    display: flex;
+    /*position: fixed;*/
+    z-index: 1px;
+
+    align-items: center;
+    width: 75%;
+    background: rgba(255, 255, 255, 0.8);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo img {
+    height: 5rem;
+    margin-left: 30px;
+}
+
+.title {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+h3 {
+    margin-top: 0;
+    color: rgb(27, 34, 133);
+}
+
+/*MIDDLE*/
+.main {
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+.main img {
+    width: 120%;
+    
+}
+
+/*FEATURED WORK*/
+.projects {
+    display: flex;
+    justify-content: center;
+}
+.projects img {
+    width: 80%;
+    margin: 3rem;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    width: 30%;
+    height: 50%;
+  }
+
+  .example span {
+    color: rgb(27, 34, 133);
+  }
